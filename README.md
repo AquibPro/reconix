@@ -1,4 +1,4 @@
-````markdown
+
 # Reconix
 
 <div align="center">
@@ -345,4 +345,3 @@ See LICENSE.txt
 ⚠️ USE RESPONSIBLY. ONLY ON AUTHORIZED TARGETS. ⚠️
 
 </div>
-```
