@@ -280,11 +280,11 @@ function usage() {
   console.log(chalk.white("  reconix scan <url> [options]\n"));
   console.log(chalk.bold.cyan("🌐 Discovery"));
   console.log(chalk.gray("────────────────────────────────────"));
-  console.log(chalk.green("  --subdomains") + chalk.gray("       Discover subdomains via crt.sh (default: ON)"));
+  console.log(chalk.green("  --no-subdomains") + chalk.gray("    Disable subdomain discovery"));
   console.log(chalk.green("  --historical") + chalk.gray("       Fetch archived URLs (Wayback Machine)"));
   console.log(chalk.bold.cyan("\n🔎 Filtering"));
   console.log(chalk.gray("────────────────────────────────────"));
-  console.log(chalk.green("  --only-critical") + chalk.gray("    Show only high-confidence secrets"));
+  console.log(chalk.green("  --only-critical") + chalk.gray("    Show only critical findings"));
   console.log(chalk.green("  --no-low") + chalk.gray("           Hide low-confidence findings"));
   console.log(chalk.green("  --include-medium") + chalk.gray("  Include medium-confidence findings (default: ON)"));
   console.log(chalk.bold.cyan("\n⚙️ Scanning"));
@@ -296,7 +296,7 @@ function usage() {
   console.log(chalk.green("  --resume") + chalk.gray("           Resume previous scan state"));
   console.log(chalk.bold.cyan("\n🧠 Advanced"));
   console.log(chalk.gray("────────────────────────────────────"));
-  console.log(chalk.green("  --js") + chalk.gray("               Enable headless browser (Puppeteer)"));
+  console.log(chalk.green("  --no-js") + chalk.gray("            Disable headless browser (Puppeteer)"));
   console.log(chalk.green("  --auth=<user:pass>") + chalk.gray("  Basic/Bearer authentication"));
   console.log(chalk.green("  --cookie=<str>") + chalk.gray("      Custom Cookie header"));
   console.log(chalk.green("  --proxy=<host:port>") + chalk.gray("  Use proxy (HTTP/SOCKS)"));
@@ -305,7 +305,6 @@ function usage() {
   console.log(chalk.gray("────────────────────────────────────"));
   console.log(chalk.green("  --output=<file>") + chalk.gray("      Save JSON report"));
   console.log(chalk.green("  --html=<file>") + chalk.gray("        Generate HTML report"));
-  console.log(chalk.green("  --show-full") + chalk.gray("        Show full secret values"));
   console.log(chalk.bold.cyan("\n🔥 Modes"));
   console.log(chalk.gray("────────────────────────────────────"));
   console.log(chalk.red("  --aggressive") + chalk.gray("       Deep full-scope scan (slow but powerful)"));
@@ -318,7 +317,7 @@ function usage() {
   console.log(chalk.bold.magenta("🚀 Examples"));
   console.log(chalk.gray("────────────────────────────────────"));
   console.log(chalk.white("  reconix example.com"));
-  console.log(chalk.white("  reconix example.com --aggressive"));
+  console.log(chalk.white("  reconix example.com --aggressive --deep --only-critical"));
   console.log(chalk.white("  reconix example.com --only-critical"));
   console.log(chalk.white("  reconix example.com --html=report.html\n"));
 }
