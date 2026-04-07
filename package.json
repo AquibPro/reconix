@@ -1,6 +1,6 @@
 {
   "name": "@aquibk/reconix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reconnaissance Intelligence Engine | Leak Scanner | Threat Intelligence Suite",
   "main": "index.js",
   "scripts": {
