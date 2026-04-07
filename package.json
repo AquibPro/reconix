@@ -30,7 +30,7 @@
     "reconix"
   ],
   "author": "Aquib Khans",
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "type": "commonjs",
   "dependencies": {
     "chalk": "^4.1.2",
