@@ -1,5 +1,5 @@
 {
-  "name": "reconix",
+  "name": "@aquibk/reconix",
   "version": "1.0.0",
   "description": "Reconnaissance Intelligence Engine | Leak Scanner | Threat Intelligence Suite",
   "main": "index.js",
@@ -9,6 +9,11 @@
   "bin": {
     "reconix": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AquibPro/reconix"
+  },
+  "homepage": "https://github.com/AquibPro/reconix",
   "keywords": [
     "recon",
     "reconnaissance",
@@ -24,7 +29,7 @@
     "cybersecurity",
     "reconix"
   ],
-  "author": "",
+  "author": "Aquib Khans",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {

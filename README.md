@@ -1,4 +1,3 @@
-````markdown
 # Reconix
 
 <div align="center">
@@ -81,7 +80,7 @@ Unlike basic scanners that just regex-match and dump findings, Reconix:
 
 ```bash
 # Global installation
-npm install -g reconix
+npm install -g @aquibk/reconix
 
 # Or run directly
 npx reconix target.com
@@ -345,4 +344,3 @@ See LICENSE.txt
 ⚠️ USE RESPONSIBLY. ONLY ON AUTHORIZED TARGETS. ⚠️
 
 </div>
-```
