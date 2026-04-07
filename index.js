@@ -4154,6 +4154,19 @@ async function finalizeAndOutput(rawData) {
 
 // ================== MAIN ==================
 (async () => {
+  // Check for updates natively (runs immediately, not deferred)
+  try {
+    const pkg = require(path.join(__dirname, "package.json"));
+    const { default: updateNotifier } = await import("update-notifier");
+    const notifier = updateNotifier({ pkg, updateCheckInterval: 1000 * 60 * 60 * 6 });
+    if (notifier.update) {
+      console.log(chalk.bold.yellow(`\n╭───────────────────────────────────────────────────╮`));
+      console.log(`│ ${chalk.bold("Update available!")} ${chalk.gray(notifier.update.current)} → ${chalk.green(notifier.update.latest)}           │`);
+      console.log(`│ Run ${chalk.cyan("npm install -g @aquibk/reconix")} to update. │`);
+      console.log(chalk.bold.yellow(`╰───────────────────────────────────────────────────╯\n`));
+    }
+  } catch (e) { /* Ignore offline/check errors */ }
+
   const startTime = Date.now();
   ReconStore.meta.startTime = startTime;
   banner();
