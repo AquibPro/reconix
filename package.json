@@ -1,0 +1,42 @@
+{
+  "name": "reconix",
+  "version": "1.0.0",
+  "description": "Reconnaissance Intelligence Engine | Leak Scanner | Threat Intelligence Suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reconix": "./index.js"
+  },
+  "keywords": [
+    "recon",
+    "reconnaissance",
+    "leak",
+    "scanner",
+    "threat",
+    "intelligence",
+    "suite",
+    "security",
+    "pentest",
+    "bug bounty",
+    "ethical hacking",
+    "cybersecurity",
+    "reconix"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cheerio": "^1.2.0",
+    "clipboardy": "^3.0.0",
+    "figlet": "^1.11.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^5.4.1",
+    "proxy-agent": "^8.0.0",
+    "puppeteer": "^24.40.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

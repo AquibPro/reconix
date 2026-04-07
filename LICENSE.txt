@@ -1,0 +1,44 @@
+Reconix Proprietary Restricted License
+Version 1.0
+
+Copyright (c) 2026 Aquib. All rights reserved.
+
+Permission is granted solely to install, run, and use this software for authorized security testing and defensive research, subject to the terms below.
+
+1. No copying.
+You may not copy, reproduce, mirror, or duplicate this software or any substantial portion of it, except as required to install and run it for your own authorized use.
+
+2. No modification.
+You may not modify, adapt, translate, merge, create derivative works from, or alter the software.
+
+3. No redistribution.
+You may not publish, distribute, sell, sublicense, rent, lease, lend, host, or otherwise transfer this software or any part of it to any third party.
+
+4. No reverse engineering.
+You may not reverse engineer, decompile, disassemble, decode, or otherwise attempt to derive the source code, structure, logic, models, signatures, heuristics, or implementation details of the software, except to the extent such restriction is prohibited by applicable law.
+
+5. No commercial reuse.
+You may not use the software, output, branding, or documentation as part of any competing product, service, dataset, benchmark, training set, or commercial offering without prior written permission.
+
+6. No removal of notices.
+You may not remove, alter, or obscure copyright notices, attribution, disclaimer text, or license text.
+
+7. Scope of permission.
+This license grants only the limited right to use the software as provided. All rights not expressly granted are reserved by the copyright holder.
+
+8. Termination.
+Any breach of this license automatically terminates your rights to use the software. Upon termination, you must cease use and destroy all copies under your control.
+
+9. Warranty disclaimer.
+The software is provided "AS IS" and "AS AVAILABLE", without warranties of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, title, and non-infringement.
+
+10. Limitation of liability.
+To the maximum extent permitted by law, the copyright holder and contributors shall not be liable for any direct, indirect, incidental, special, consequential, punitive, or exemplary damages arising from or related to the software or its use.
+
+11. Compliance.
+You are solely responsible for ensuring your use complies with all applicable laws, regulations, policies, contracts, and authorization requirements.
+
+12. Governing interpretation.
+If any part of this license is unenforceable in your jurisdiction, the remaining terms remain in effect to the fullest extent permitted by law.
+
+By using this software, you acknowledge that you have read, understood, and agreed to this license.
