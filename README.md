@@ -68,7 +68,9 @@ Unlike basic scanners that just regex-match and dump findings, Reconix:
 
 - **Multi-format reporting** — Generates beautiful HTML reports, structured JSON exports, and plaintext `discovered_api_keys.txt` for quick reference
 
-- **150+ technology fingerprints** — Detects frameworks, hosting providers, CDNs, analytics, payment processors, auth systems, and UI libraries from headers, HTML, JS, cookies, TLS certs, and DNS
+- **680+ technology fingerprints** — Detects frameworks, hosting providers, CDNs, analytics, payment processors, auth systems, and UI libraries from headers, HTML, JS, cookies, TLS certs, and DNS
+
+- **200+ real-world secret detection patterns** — Covers API keys, tokens, private keys, OAuth secrets, database credentials, CI/CD tokens, and webhook URLs across major platforms with high-confidence matching
 
 - **Browser network capture** — When `--js` is enabled, captures all outgoing network requests to fingerprint additional services and APIs
 

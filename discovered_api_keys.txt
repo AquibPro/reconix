@@ -1,0 +1,11 @@
+[OpenAI API Key] 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
+  Status: INVALID | Severity: 5 | Confidence: high
+  Reason: Format valid (sk-proj-*) but API returned 401 — key is revoked or unauthorized
+  Method: api_call | Validation Confidence: high
+  Sources: https://diagnofy.ai/assets/index-cage4oyo.js, https://diagnofy.ai/assets/index-cage4oyo.js:line76
+
+[JWT] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqZHVhdmZqdXF6c3FoZGVwa3p0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU0NjA4MzcsImV4cCI6MjA4MTAzNjgzN30.rLUTDv1JnYrEbuVyuJ3KHiH-iuJWLfM7OceUwFs8CBg
+  Status: LONG-LIVED | Severity: 5 | Confidence: high
+  Reason: Expiry set to 2035-12-12 (10+ years) — indicates weak rotation policy or static service key. Issuer: supabase | Role: anon | Expires: 2035-12-12
+  Method: jwt_decode | Validation Confidence: high
+  Sources: https://diagnofy.ai/assets/index-cage4oyo.js
